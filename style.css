@@ -1,0 +1,12 @@
+body {
+  font-family: arial;
+}
+
+h1 {
+  border-bottom: 1px solid black;
+  font-size: 30px;
+}
+
+p {
+  font-size: 20px;
+}
