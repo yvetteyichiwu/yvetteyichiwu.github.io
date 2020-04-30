@@ -1,7 +1,7 @@
 element {}
 .class {}
 #id {}
-:psuedoclass              e.g. :link :visited
+:psuedoclass              e.g. :link :hover :visited
 
 
 
@@ -21,8 +21,6 @@ text-align                e.g. left center right
 background-color          e.g. primary colors, rbg(###,###,###), text codes
 background-image          e.g. url(link)
 
-width
-
 border
 border-radius
 for border, can combine -width -style -color,  -top -bottom -left -right
@@ -30,4 +28,12 @@ for border, can combine -width -style -color,  -top -bottom -left -right
 padding
 margin                    e.g. auto for centering
 for padding and margin, can combine -top -bottom -left -right
+
+width                     e.g. ###px, ###%
+height
+
+float                     e.g. left center right
+position                  e.g. absolute fixed relative (top/bottom left/right)
+display                   e.g. block
+overflow                  e.g. scroll
 
