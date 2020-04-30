@@ -1,4 +1,4 @@
-element {}
+element {}                e.g. can put entire path of descendant element, can put multiple elements
 .class {}
 #id {}
 :psuedoclass              e.g. :link :hover :visited
@@ -17,6 +17,9 @@ font-family
 
 line-height
 text-align                e.g. left center right
+vertical-align            e.g. middle
+
+list-style-type
 
 background-color          e.g. primary colors, rbg(###,###,###), text codes
 background-image          e.g. url(link)
@@ -34,6 +37,6 @@ height
 
 float                     e.g. left center right
 position                  e.g. absolute fixed relative (top/bottom left/right)
-display                   e.g. block
+display                   e.g. block inline inline-block
 overflow                  e.g. scroll
 
