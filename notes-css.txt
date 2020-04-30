@@ -1,5 +1,5 @@
 element {}
-.attribute {}
+.class {}
 #id {}
 :psuedoclass              e.g. :link :visited
 
@@ -20,6 +20,8 @@ text-align                e.g. left center right
 
 background-color          e.g. primary colors, rbg(###,###,###), text codes
 background-image          e.g. url(link)
+
+width
 
 border
 border-radius
