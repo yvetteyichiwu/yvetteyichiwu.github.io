@@ -1,7 +1,21 @@
-element {}                e.g. can put entire path of descendant element, can put multiple elements
-.class {}
-#id {}
-:psuedoclass              e.g. :link :hover :visited
+element {}                e.g. can put multiple elements
+
+[attribute]               attribute selector
+[attribute="xxx"]         attribute selector (value)
+[attribute^="xxx"]        attribute selector (value begins with)
+[attribute$="xxx"]        attribute selector (value ends in)
+[attribute*="xxx"]        attribute selector (value wildcard)
+
+.class {}                 class attribute selector
+#id {}                    id attribute selector
+
+ element                  descendent selector
+>element                  child selector
+~element                  sibling selector
++element2                 sibling selector (adjacent)
+
+:psuedoclass              e.g. link hover visited, n-th child(###), not(element), first-line
+::psuedoclass             e.g. first-letter
 
 
 
@@ -11,9 +25,13 @@ inline style uses attribute style="property:value;"
 (text-)color
 text-decoration           e.g. underline
 font-size                 e.g. ###px for global, ###% for local
-font-weight               e.g. lighter, normal, bold, bolder
+font-weight               e.g. lighter normal bold bolder
 font-style                e.g. italic
 font-family
+
+text-shadow
+box-shadow
+opacity
 
 line-height
 text-align                e.g. left center right
@@ -21,6 +39,7 @@ vertical-align            e.g. middle
 
 list-style-type
 
+background                e.g. linear-gradient(color1,color2)
 background-color          e.g. primary colors, rbg(###,###,###), text codes
 background-image          e.g. url(link)
 
