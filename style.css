@@ -70,24 +70,5 @@ div.header a#title {
   body {
     padding: 25px;
   }
-  
-  div.header {
-    float: none;
-    position: static;
-  }
-
-  div.text {
-    margin-left: 0px;
-    margin-top: 30px;
-  }
-
-  li#menu {
-    display: inline;
-    padding-right: 5px;
-  }
-
-  br {
-    display:none;
-  }
 
 }
