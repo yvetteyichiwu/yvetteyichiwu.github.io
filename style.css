@@ -73,7 +73,7 @@ div.header a#title {
 
 }
 
-@media screen and (max-height: 400px) {
+@media screen and (max-height: 600px) {
 
   body {
     padding: 25px;
