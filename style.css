@@ -1,16 +1,74 @@
 body {
-  font-family: roboto;
+  font-family: 'lato', arial, sans-serif;
+  padding: 50px;
 }
 
-h1 {
-  border-bottom: 1px solid black;
+div.header {
+  float: left;
+  position: fixed;
+}
+
+div.header h1 {
   font-size: 25px;
+  font-weight: bold;
 }
 
-h2 h3 h4 {
-  font-size: 20px;
+div.header ul.menu {
+  list-style-type: none;
+  padding: 5px;
 }
 
-p {
+div.text {
   font-size: 15px;
+  font-weight: 300;
+  margin-left: 275px;
+  margin-top: 50px;
+  width: 650px;
+}
+
+a {
+  text-decoration: none;
+}
+
+div.header a#title {
+  color: black;
+}
+
+@media screen and (max-width: 1000px) {
+
+  div.text {
+    width: auto;
+  }
+
+}
+
+@media screen and (max-width: 800px) {
+
+  div.header {
+    float: none;
+    position: static;
+  }
+
+  div.text {
+    margin-left: 0px;
+    margin-top: 30px;
+  }
+
+  li#menu {
+    display: inline;
+    padding-right: 5px;
+  }
+
+  br {
+    display:none;
+  }
+
+}
+
+@media screen and (max-width: 400px) {
+
+  body {
+    padding: 25px;
+  }
+
 }
