@@ -2,11 +2,16 @@
 <element attribute="value"> 
   
 <!doctype html>
+
+<title>
   
-<meta>                                         * doesn't need closing tag
-name="description"                             * shows up in search engine
-content="xxx"
-  
+<meta>
+name="description" content="xxx"
+name="viewport" content="width=device-width, initial-scale=1"
+
+<link>
+rel="stylesheet" href="link"
+ 
 <br> paragraph break
 &nbsp space
 
