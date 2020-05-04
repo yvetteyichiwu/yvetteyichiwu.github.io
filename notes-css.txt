@@ -14,7 +14,7 @@ element {}                e.g. can put multiple elements
 ~element                  sibling selector
 +element2                 sibling selector (adjacent)
 
-:psuedoclass              e.g. link hover visited, n-th child(###), not(element), first-line
+:psuedoclass              e.g. hover visited, n-th child(###), not(element), first-line
 ::psuedoclass             e.g. first-letter
 
 
@@ -56,6 +56,13 @@ height
 
 float                     e.g. left center right
 position                  e.g. absolute fixed relative (top/bottom left/right)
-display                   e.g. block inline inline-block
+display                   e.g. block inline inline-block grid
 overflow                  e.g. scroll
 
+
+
+@media                    conditionals
+screen                    electronic devices
+only screen               smartphone devices
+max-width, max-height
+min-width, min-height
