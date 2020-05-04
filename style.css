@@ -64,3 +64,19 @@ div.header a#title {
   }
 
 }
+
+@media screen and (max-width: 400px) {
+
+  body {
+    padding: 25px;
+  }
+
+}
+
+@media screen and (max-height: 400px) {
+
+  body {
+    padding: 25px;
+  }
+
+}
