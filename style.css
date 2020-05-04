@@ -28,6 +28,16 @@ div.text {
 
 a {
   text-decoration: none;
+  color: #428BCA;
+  opacity: 1;
+}
+
+a:hover {
+  opacity: 0.5;
+}
+
+a:visited {
+  color: #551A8B;
 }
 
 div.header a#title {
