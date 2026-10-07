@@ -168,3 +168,9 @@ div.header a#title {
   }
 
 }
+
+@media screen and (min-width: 801px) {
+  div.header ul.menu li {
+    margin-bottom: 4px;
+  }
+}
