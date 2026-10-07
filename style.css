@@ -36,7 +36,23 @@ div.text {
 }
 
 
-/* publications format */
+/* home page format */
+
+.home-page .text {
+  line-height: 1.6;
+}
+
+.home-page .text p {
+  margin-bottom: 1.2rem;
+}
+
+.home-page .text ul li {
+  line-height: 1.6;
+  margin-bottom: 0.7rem;
+}
+
+
+/* content page format */
 
 .publications-list {
   margin: 0;
