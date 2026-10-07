@@ -50,11 +50,6 @@ div.text {
   margin-bottom: 1.5rem;
 }
 
-.publication-year {
-  font-weight: bold;
-  color: #555;
-}
-
 .publication-entries {
   list-style-type: none;
   margin: 0;
