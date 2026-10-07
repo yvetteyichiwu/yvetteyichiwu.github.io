@@ -23,7 +23,16 @@ div.text {
   font-weight: 300;
   margin-left: 275px;
   margin-top: 50px;
+}
+
+/* Only the main page has a 650px maximum width */
+.home-page div.text {
   width: 650px;
+}
+
+/* Other pages use the available screen width */
+.content-page div.text {
+  width: auto;
 }
 
 a {
