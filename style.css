@@ -25,12 +25,12 @@ div.text {
   margin-top: 50px;
 }
 
-/* Only the main page has a 650px maximum width */
 .home-page div.text {
-  width: 650px;
+  width: 100%;
+  max-width: 650px;
+  box-sizing: border-box;
 }
 
-/* Other pages use the available screen width */
 .content-page div.text {
   width: auto;
 }
@@ -131,6 +131,15 @@ div.header a#title {
   div.text {
     margin-left: 0px;
     margin-top: 30px;
+  }
+  
+  .home-page div.text {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .home-page .text {
+    overflow-wrap: anywhere;
   }
 
   li#menu {
