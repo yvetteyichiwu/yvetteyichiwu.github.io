@@ -58,7 +58,7 @@ div.text {
 .home-content {
   display: flex;
   align-items: flex-start;
-  gap: 30px;
+  gap: 50px;
   margin-left: 275px;
   margin-top: 50px;
   max-width: 1000px;
@@ -80,6 +80,10 @@ div.text {
   width: auto;
   max-width: 650px;
   margin: 0;
+}
+
+.home-content .text p:first-child {
+  margin-top: 0;
 }
 
 
