@@ -55,6 +55,19 @@ div.text {
   margin-bottom: 0.5rem;
 }
 
+.home-profile {
+  margin-left: 275px;
+  margin-top: 50px;
+  margin-bottom: 25px;
+}
+
+.home-profile img {
+  display: block;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
 
 /* content page format */
 
@@ -150,6 +163,17 @@ div.header a#title {
 
   br {
     display:none;
+  }
+
+  .home-profile {
+    margin-left: 0;
+    margin-top: 30px;
+    margin-bottom: 25px;
+  }
+
+  .home-profile img {
+    width: 130px;
+    height: 130px;
   }
 
 }
