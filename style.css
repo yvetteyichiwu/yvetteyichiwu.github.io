@@ -65,8 +65,8 @@ div.text {
 }
 
 .home-profile {
-  flex: 0 1 300px;
-  max-width: 300px;
+  flex: 0 1 200px;
+  max-width: 200px;
 }
 
 .home-profile img {
