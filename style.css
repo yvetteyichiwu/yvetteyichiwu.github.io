@@ -58,7 +58,7 @@ div.text {
 .home-content {
   display: flex;
   align-items: flex-start;
-  gap: 50px;
+  gap: 60px;
   margin-left: 275px;
   margin-top: 50px;
   max-width: 1000px;
